@@ -1,4 +1,7 @@
-# Comments on (CoulombPotential(x,args) + HamonicPotential(x,args))*10**22
+# Comments on the stronge factor
+```python
+(CoulombPotential(x,args) + HamonicPotential(x,args))*10**22
+```
 
 At the beginning of optimization, I cannot get a reasonable crystal geometry. When I look at the output of objective function,
 I found the absolute value is really small (around 10^-22). Then I realize maybe this value is too small compared to the accuracy
